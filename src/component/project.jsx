@@ -4,20 +4,7 @@ import '../App.css';
 function ProjectPage() {
   return (
     <div className='projectPage'>
-        <div className='pleft'><a href='/home'>&lt; Home</a>
-      <br/>
-      <br/>
-      <a href='/about'>&lt; About Me</a>
-      <br/>
-      <br/>
-      <a href='/education'>&lt; Education</a>
-      <br/>
-      <br/>
-      <a href='/project'>&lt; Contact</a>
-      <br/>
-      <br/>
-      <a href='/work'>&lt; Work and Reference</a>
-      </div>
+        
       <div className='pright'>
         <div>
       <h1>1. Simple game backend:</h1>

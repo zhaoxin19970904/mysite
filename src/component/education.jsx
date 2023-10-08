@@ -4,20 +4,7 @@ import '../App.css';
 function EducationPage() {
   return (
     <div className='educationPage'>
-        <div className='elefttop'><a href='/home'>&lt; Home</a>
-      <br/>
-      <br/>
-      <a href='/about'>&lt; About Me</a>
-      <br/>
-      <br/>
-      <a href='/education'>&lt; Contact</a>
-      <br/>
-      <br/>
-      <a href='/project'>&lt; Projects</a>
-      <br/>
-      <br/>
-      <a href='/work'>&lt; Work and Reference</a>
-      </div>
+      
         <div className='eright'>
 
       <h1>Education Background:</h1>

@@ -4,20 +4,7 @@ import '../App.css';
 function WorkPage() {
   return (
     <div className='workPage'>
-        <div className='wleft'><a href='/home'>&lt; Home</a>
-      <br/>
-      <br/>
-      <a href='/about'>&lt; About Me</a>
-      <br/>
-      <br/>
-      <a href='/education'>&lt; Education</a>
-      <br/>
-      <br/>
-      <a href='/project'>&lt; Projects</a>
-      <br/>
-      <br/>
-      <a href='/work'>&lt; Contact</a>
-      </div>
+        
         <div className='wright'>
           <h1>Work Experience:</h1>
           <h2>Sictec Group Inc.</h2>

@@ -4,20 +4,7 @@ import '../App.css';
 function ContactPage() {
   return (
     <div className='contactPage'>
-      <div className='clefttop'><a href='/home'>&lt; Back</a>
-      <br/>
-      <br/>
-      <a href='/about'>&lt; About Me</a>
-      <br/>
-      <br/>
-      <a href='/education'>&lt; Education</a>
-      <br/>
-      <br/>
-      <a href='/project'>&lt; Projects</a>
-      <br/>
-      <br/>
-      <a href='/work'>&lt; Work and Reference</a>
-      </div>
+      
 
         <div class="contact" id ="contact">
         <div class="comb1">
@@ -52,20 +39,20 @@ function ContactPage() {
             <div class="form1">
                 <form action="https://formsubmit.co/bobxin.zhao@gmail.com" method="POST" class="form2">
                     <div class="comb3">
-                        <label for="name" id="ct5">Name:*&nbsp;&nbsp;</label>
+                        <label for="name" id="ct5">Name:*&nbsp;&nbsp;<br/></label>
                         <input type="text" id="name" name="name" />
                         <label for="school" id="ct6">&nbsp;School/Companybsp;&nbsp; </label>
                         <input type="text" id="school" name="school" />
                     </div>
                     <div class="comb3">
-                        <label for="email" id="ct7">Email:*&nbsp;&nbsp;</label>
+                        <label for="email" id="ct7">Email:*&nbsp;&nbsp;<br/></label>
                         <input type="text" id="email" name="email" />
                         <label for="phone1" id="ct8">&nbsp;Phone:&nbsp;&nbsp; </label>
                         <input type="text" id="phone1" name="phone" />
                     </div>
                     <br/>
 
-                    <label for="subject" id="ct9">Tell us more....*</label><br/>
+                    <label for="subject" id="ct9">Tell us more....*<br/></label><br/>
                     <textarea id="subject" name="subject"
                     style={{height: '200px',width: '80%',borderRadius: '5px'}}
 ></textarea>

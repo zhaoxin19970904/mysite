@@ -5,20 +5,7 @@ function AboutPage() {
   return (
     <div className='aboutPage'>
       
-        <div className='aleft'><a href='/home'>&lt; Home</a>
-      <br/>
-      <br/>
-      <a href='/contact'>&lt; Contact</a>
-      <br/>
-      <br/>
-      <a href='/education'>&lt; Education</a>
-      <br/>
-      <br/>
-      <a href='/project'>&lt; Projects</a>
-      <br/>
-      <br/>
-      <a href='/work'>&lt; Work and Reference</a>
-      </div>
+      
       <div className='aright'>
       <div className='photob'>
       <img className='photo' src='./img/photo.jpg' alt="photo1" />

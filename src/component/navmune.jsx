@@ -12,7 +12,7 @@ function WindmillNav() {
   }, []);
 
   const radius = 85;  // Set the radius of the circle
-  const itemCount = 5;  // Set the number of items
+  const itemCount = 6;  // Set the number of items
   const items = [];
   for (let i = 0; i < itemCount; i++) {
     const angle = ((360 / itemCount) * i + rotation) * (Math.PI / 180);
@@ -20,8 +20,8 @@ function WindmillNav() {
     const y = 50 + radius * Math.sin(angle) + '%';
     items.push(
       <div className="item" style={{ left: x, top: y, transform: `translate(-50%, -50%) ` }} key={i}>
-        <a href={`/${['about', 'contact', 'education', 'project', 'work'][i]}`} className="link">
-          {['More / Skills', 'Contact', 'Education', 'Projects', 'Work / Reference'][i]}
+        <a href={`/${['about', 'hobby', 'contact', 'education', 'project', 'work'][i]}`} className="link">
+          {['More / Skills', 'Hobby', 'Contact', 'Education', 'Projects', 'Work / Reference'][i]}
         </a>
       </div>
     );
