@@ -40,15 +40,15 @@ function ContactPage() {
                 <form action="https://formsubmit.co/bobxin.zhao@gmail.com" method="POST" class="form2">
                     <div class="comb3">
                         <label for="name" id="ct5">Name:*&nbsp;&nbsp;<br/></label>
-                        <input type="text" id="name" name="name" />
+                        <input type="text" id="name" name="name" /><br/>
                         <label for="school" id="ct6">&nbsp;School/Companybsp;&nbsp; <br/></label>
-                        <input type="text" id="school" name="school" />
+                        <input type="text" id="school" name="school" /><br/>
                     </div>
                     <div class="comb3">
                         <label for="email" id="ct7">Email:*&nbsp;&nbsp;<br/></label>
-                        <input type="text" id="email" name="email" />
+                        <input type="text" id="email" name="email" /><br/>
                         <label for="phone1" id="ct8">&nbsp;Phone:&nbsp;&nbsp;<br/> </label>
-                        <input type="text" id="phone1" name="phone" />
+                        <input type="text" id="phone1" name="phone" /><br/>
                     </div>
                     <br/>
 
