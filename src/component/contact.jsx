@@ -41,13 +41,13 @@ function ContactPage() {
                     <div class="comb3">
                         <label for="name" id="ct5">Name:*&nbsp;&nbsp;<br/></label>
                         <input type="text" id="name" name="name" />
-                        <label for="school" id="ct6">&nbsp;School/Companybsp;&nbsp; </label>
+                        <label for="school" id="ct6">&nbsp;School/Companybsp;&nbsp; <br/></label>
                         <input type="text" id="school" name="school" />
                     </div>
                     <div class="comb3">
                         <label for="email" id="ct7">Email:*&nbsp;&nbsp;<br/></label>
                         <input type="text" id="email" name="email" />
-                        <label for="phone1" id="ct8">&nbsp;Phone:&nbsp;&nbsp; </label>
+                        <label for="phone1" id="ct8">&nbsp;Phone:&nbsp;&nbsp;<br/> </label>
                         <input type="text" id="phone1" name="phone" />
                     </div>
                     <br/>
